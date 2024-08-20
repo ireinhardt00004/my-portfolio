@@ -1260,15 +1260,15 @@ form .button-area {
     background-color: #264de4;
 }
 .javascript .progress-bar {
-    width: 70%;
+    width: 60%;
     background-color: #f0db4f;
 }
 .php .progress-bar {
-    width: 80%;
+    width: 70%;
     background-color: #4F5B93;
 }
 .laravel .progress-bar {
-    width: 80%;
+    width: 75%;
     background-color: #FF2D20;
 }
 .bootstrap .progress-bar {
@@ -1276,12 +1276,9 @@ form .button-area {
   background-color: #FF2D20;
 }
 .mysql .progress-bar {
-    width: 70%;
+    width: 60%;
     background-color: #00758F;
 }
-
-
-
 .work {
   width: 80%;
   margin: 0 auto;
