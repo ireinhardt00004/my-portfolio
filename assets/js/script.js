@@ -268,11 +268,11 @@ function animateProgressBars() {
         if (isInViewport(bar)) {
             bar.style.width = bar.parentElement.parentElement.classList.contains('html') ? '90%' :
                              bar.parentElement.parentElement.classList.contains('css') ? '85%' :
-                             bar.parentElement.parentElement.classList.contains('javascript') ? '80%' :
+                             bar.parentElement.parentElement.classList.contains('javascript') ? '60%' :
                              bar.parentElement.parentElement.classList.contains('bootstrap') ? '70%' :
-                             bar.parentElement.parentElement.classList.contains('php') ? '75%' :
-                             bar.parentElement.parentElement.classList.contains('laravel') ? '70%' :
-                             bar.parentElement.parentElement.classList.contains('mysql') ? '80%' : '0';
+                             bar.parentElement.parentElement.classList.contains('php') ? '70%' :
+                             bar.parentElement.parentElement.classList.contains('laravel') ? '75%' :
+                             bar.parentElement.parentElement.classList.contains('mysql') ? '60%' : '0';
         }
     });
 }
